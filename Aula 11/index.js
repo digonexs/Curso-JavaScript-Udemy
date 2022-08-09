@@ -63,11 +63,11 @@ const incrementar = 2;
 contador = contador + incrementar;
 console.log(contador);
 
-// UMA MESMA FORMA DE FAZER O EXEMPLO ACIME É:
+// UMA MESMA FORMA DE FAZER O EXEMPLO ACIMA É:
 contador +=incrementar; //ou +=2 ou também utilizar qualquer outro operador aritmético.
 console.log(contador);
 
-//ERRO NaN - Not a number
+//ERRO NaN - Not a number // CONVERSÃO DE DADOS
 const num1 = 10;
 const num2 = parseInt('5'); //Convertendo o '5' para int
 console.log(num1 + num2);
