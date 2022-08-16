@@ -15,3 +15,10 @@ Outra maneira de buscar e pegar um indice de uma string é:
 
 console.log(umaString.charAt(6));
 
+// Para encontrar em qual indice começa UMA PALAVRA expecifica, basta: 
+
+console.log(umaString.indexOf('TEXTO')); //indicando que a palavra TEXTO começa no indice 3.
+
+console.log(umaString.indexOf('X' , 3)); //indicando que a letra x está no indice 5, verificando a partir do indice  3.
+
+console.log(umaString.lastIndexOf('E'));// começa do final da string para o início, ou seja, de trás pra frente
